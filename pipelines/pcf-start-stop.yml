@@ -1,0 +1,32 @@
+resources:
+- name: pipeline-repo
+  type: git
+  source:
+    branch: master
+    uri: git@github.com:poligraph/pcf-start-stop.git
+
+jobs:
+- name: gcp-pcf-stop
+  build_logs_to_retain: 100
+  plan:
+  - get: pipeline-repo
+  - do:
+    - task: pcf-stop
+      file: pipeline-repo/tasks/pcf-stop/task.yml
+      params:
+        PCF_URL: {{pcf-url}}
+        PCF_USERNAME: {{pcf-username}}
+        PCF_PASSWORD: {{pcf-password}}
+        OPS_SSH_KEY: {{opsmanager_ssh_private_key}}
+- name: gcp-pcf-start
+  build_logs_to_retain: 100
+  plan:
+  - get: pipeline-repo
+  - do:
+    - task: pcf-start
+      file: pipeline-repo/tasks/pcf-start/task.yml
+      params:
+        PCF_URL: {{pcf-url}}
+        PCF_USERNAME: {{pcf-username}}
+        PCF_PASSWORD: {{pcf-password}}
+        OPS_SSH_KEY: {{opsmanager_ssh_private_key}}

@@ -1,0 +1,31 @@
+pcf-url: 'https://ops.pcf-heartbeat-demo.altoros.xyz/'
+pcf-username: admin
+pcf-password: 123456
+opsmanager_ssh_private_key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAoSzCVGLbv9p3KAjCoUMBOp4+0id6Y5ScRxEB1/0PsO4pNz2B
+  6Euae8mlVqRsdegXGaf/62qRjX4eWBUeikaXwoj6IwMSc2J8AkMMo87hRuoVN9+5
+  zcEceg+uOBUGAX4/RBXzdRUpIBLuYm4FQtxMtpCMP93kg4HfkNkdzCbQF+P46kCD
+  3xMZGmu3pMiv8Y4g0NjduXOvj+eArcfKxifwv2lRedxsK+wAdGNeGHxE2i4aj6M8
+  zhjgnJtm0x8pYGY/w+gOoOGRY8Djka1AXAul5ac8tz6F5NZtQV0IY2h7Ev35cyrX
+  SSk/xvlSk8w20TdJs/yK5feS9mYbsPz+xJPmywIDAQABAoIBAFrfmKXpo0r1y084
+  OTyhQdUiGft1pMz2onJzRV3ZYfp5HaX2uQMXdX+r/tvuEvUbqcKedW3vhSeI32T8
+  a169VJ2ri5UoC0QhWBgSY9MMNvo7y0DYlLNM2Vh89NbMC7nVy6gA1GbESo65/cxj
+  ifXbrikVMO5llo0LMdlCgUl07Mk6q+pHjFBPBvNO63t6rfvzOmxYiIpSOhcXlosD
+  27q11H0zQG1yV/042TuF0vl4bfjQoWQTIv3+3PmjEcs43cIc6yj+g1otImPSO005
+  YLO9iEXoTHaQR0bNw3HM41vfV0iKuAT7a9Je6PKnEtv/SOKxjo+Cn9vyC42bx1MV
+  Ur4r2yECgYEA1ZDWnn/Dum59BuOYtoBRQABMZhtxv6ryTH+RIcAFvAQKWv7QKtaS
+  pWxBminv24BgJIJW7N97NqMpIQ6TsnbdYBA7uPMVFm0hSYXF1iypudC5VAc9wL+P
+  5VkFaAGYIF4L/RLEa9ReNzs7yDEFfMZKInL+tOW5lJlICgMjm5AK3bECgYEAwTMF
+  mc04zZ9qCiivYPp0RAVeaPqqXrwXWtzhwFVDLq0ypz8CtlL+n0OU27wWn7pLe6Ct
+  ABBpgKbbM9QynKEBtjXI+RgQvu9p9q3Lgkl/8s5Oq8pfhRLzTxRXHqCiC73AN6tU
+  z1VD5EtPGKWW/jOQQnsW2cli3IlIIUZzJp2YfzsCgYEAsEeYT0Xoeice/iO49tMd
+  vbVBWnrGvk1NKIWXdwM3+IRhQ9DWZLWuX+rmj2iUOltRgHExbN3epy+wEEAm+4UP
+  n25mzXef7V3wvu4zaWB+TAkUIF7FwyabkNSVGM9QEU9vl9n41YR6rB4xb0G/ZMmL
+  gbnnsct5DkYjZ1hF+O7BeVECgYBdXgL+6SbieIAOmMro2yEFHnMZ2MotLkk7KDQR
+  dyMYk6s/GDx/UGytG0P9TVDBsI56GJSCy2uxOPIGgi5Tc5wYKrYNa4vsOlfDVwpa
+  1Jp5BSsP6qVu8lGTjgjsTEUD15flT2+VI2fEFIENMDlgcBrvhfztE14rpkytiBZu
+  OwtPsQKBgDjMTxalveXqZCndq7Pe2YRkyu6Wq3cySm+Nphg4TRTdZRIOJq2B/qDY
+  mg0lR3RFo3jUf6H0kP3iqOfatZ4EyYlzTa2120m6sSlIryRUJU35hKJdQpbSxQgJ
+  GxsXZsigt/WctCbvfAhZZPiTL7ZNUKIo2ZzhplfbIawfa/QzPblN
+  -----END RSA PRIVATE KEY-----

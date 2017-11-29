@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: poligraph/ubuntu-ci
+
+inputs:
+- name: pipeline-repo
+
+run:
+  path: pipeline-repo/tasks/pcf-start/run.sh
