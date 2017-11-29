@@ -3,7 +3,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: git@github.com:poligraph/pcf-start-stop.git
+    uri: https://github.com/poligraph/pcf-start-stop.git
 
 jobs:
 - name: gcp-pcf-stop
